@@ -2,11 +2,11 @@
 /* GLOBAL CONSTANTS AND VARIABLES */
 
 /* assignment specific globals */
-const INPUT_TRIANGLES_URL = "https://rafaelesteller.github.io/bejeweled/triangles.json"; // triangles file loc
+const INPUT_TRIANGLES_URL = "https://rafaelesteller.github.io/bejeweled/diamond.json"; // triangles file loc
 var defaultEye = vec3.fromValues(0.0,0.0,-1.5); // default eye position in world space
 var defaultCenter = vec3.fromValues(0.0,0.0,-0.5); // default view direction in world space
 var defaultUp = vec3.fromValues(0,1,0); // default view up vector
-var lightAmbient = vec3.fromValues(1,1,1); // default light ambient emission
+var lightAmbient = vec3.fromValues(0,0,-2); // default light ambient emission
 var lightDiffuse = vec3.fromValues(1,1,1); // default light diffuse emission
 var lightSpecular = vec3.fromValues(1,1,1); // default light specular emission
 var lightPosition = vec3.fromValues(-1,3,-0.5); // default light position
