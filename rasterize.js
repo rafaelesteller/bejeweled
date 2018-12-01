@@ -2,7 +2,7 @@
 /* GLOBAL CONSTANTS AND VARIABLES */
 
 /* assignment specific globals */
-const INPUT_TRIANGLES_URL = "https://rafaelesteller.github.io/bejeweled/triangles.json"; // triangles file loc
+const INPUT_TRIANGLES_URL = "https://rafaelesteller.github.io/bejeweled/diamond.json"; // triangles file loc
 var defaultEye = vec3.fromValues(0.0,0.0,-1.5); // default eye position in world space
 var defaultCenter = vec3.fromValues(0.0,0.0,-0.5); // default view direction in world space
 var defaultUp = vec3.fromValues(0,1,0); // default view up vector
